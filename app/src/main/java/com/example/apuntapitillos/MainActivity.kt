@@ -29,8 +29,6 @@ class MainActivity : AppCompatActivity() {
             finish()
         }
 
-
-
         binding.btnReiniciar.setOnClickListener {
             val db: SQLiteDatabase = pitillosHelper.writableDatabase
             //val borradoTabla = "DELETE FROM pitillos"
